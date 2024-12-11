@@ -1,0 +1,21 @@
+{
+  "name": "com.abrds.jam-starter",
+  "displayName": "Jam Starter Kit",
+  "version": "0.0.1",
+  "unity": "2021.3",
+  "description": "",
+  "keywords": [
+    "jam"
+  ],
+  "repository": {
+    "url": "https://github.com/abr-designs/jam-starter-package.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "com.unity.feature.2d": "2.0.1",
+    "com.unity.cinemachine": "2.10.1",
+    "com.unity.textmeshpro": "3.0.9",
+    "com.unity.inputsystem": "1.7.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  }
+}
