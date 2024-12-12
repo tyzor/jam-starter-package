@@ -16,11 +16,13 @@ namespace JamStarter.Editor
         private static readonly string[] Packages = {
             "com.dbrizov.naughtyattributes",
             "com.gitamend.unityutils",
+            "ayellowpaper.serialized-dictionary"
         };
     
         private static readonly string[] PackageUrLs = {
             "https://github.com/dbrizov/NaughtyAttributes.git#upm",
             "https://github.com/adammyhre/Unity-Utils.git",
+            "https://github.com/ayellowpaper/SerializedDictionary.git"
         };
     
         [InitializeOnLoadMethod]
