@@ -23,6 +23,7 @@ namespace Utilities.Animations
         private Vector3 _originalScale;
         private Quaternion _originalRotation;
 
+        [ContextMenu("Play")]
         public void Play()
         {
             if (_isPlaying)
@@ -58,6 +59,7 @@ namespace Utilities.Animations
             }
         }
 
+        [ContextMenu("Loop")]
         public void Loop()
         {
             if (_isPlaying)
@@ -97,6 +99,7 @@ namespace Utilities.Animations
             }
         }
 
+        [ContextMenu("Stop")]
         public void Stop()
         {
             StopAllCoroutines();
