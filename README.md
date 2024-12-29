@@ -2,6 +2,17 @@
 This package is meant to include an ever-growing library of scripts, tools, systems & basic textures that help to kick off
 projects & Game jams.
 
+> ## Installation Instructions
+> To install the Starter kit:
+> 
+> ![giturl_installation.PNG](Documentation%7E/Images/giturl_installation.PNG)
+> 1. Open the Package Window
+> 2. Select the **+** button
+> 3. Click Add from GitURL
+> 4. Paste `https://github.com/abr-designs/jam-starter-package.git` into the text box
+
+
+
 ### `v0.0.2` - Dec 29, 2024
 ### Supports Unity 2022
 
