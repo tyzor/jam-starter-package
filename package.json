@@ -11,6 +11,11 @@
     "url": "https://github.com/abr-designs/jam-starter-package.git",
     "type": "git"
   },
+  "author": {
+    "name": "Alex Bédard-Reid",
+    "email": "alexbedardreid@gmail.com",
+    "url": "https://www.abr-designs.ca/"
+  },
   "dependencies": {
     "com.unity.feature.2d": "2.0.1",
     "com.unity.cinemachine": "2.10.1",

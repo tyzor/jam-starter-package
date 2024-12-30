@@ -11,16 +11,15 @@ namespace Utilities
         {
             var type = typeof(T);
             
-            if (_enumsMap == null)
-            {
-                _enumsMap = new Dictionary<Type, Enum[]>();
-            }
+            _enumsMap ??= new Dictionary<Type, Enum[]>();
 
-            if (_enumsMap.TryGetValue(type, out var enums) == false)
+            if (_enumsMap.TryGetValue(type, out var enums))
             {
-                enums = (Enum[])Enum.GetValues(type);
-                _enumsMap.Add(type, enums);
+                return (T)enums.PickRandomElement();
             }
+            
+            enums = (Enum[])Enum.GetValues(type);
+            _enumsMap.Add(type, enums);
 
             return (T)enums.PickRandomElement();
         }

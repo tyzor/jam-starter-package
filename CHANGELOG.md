@@ -8,10 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased] - yyyy-mm-dd
 
 ### Added
-- 
+- Added random enum selection through `Utilities.EnumExtensions.GetRandomEnum()`
 
 ### Changed
-- 
+- Updated README to include Samples tutorial
 
 ### Fixed
 -

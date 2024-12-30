@@ -30,6 +30,10 @@ projects & Game jams.
 
 
 ## Samples
+> To add samples, navigate to the **_Package Manager window → Jam Starter Kit → Samples_**
+> 
+> ![samples](Documentation%7E/Images/samples_tutorial.PNG)
+
 - ### [VFX Manager](Documentation~/Samples/vfx-manager.md)
 - ### [SFX Manager](Documentation~/Samples/sfx-manager.md)
 - ### [Music Manager](Documentation~/Samples/music-manager.md)
