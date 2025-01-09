@@ -5,7 +5,7 @@ projects & Game jams.
 > ## Installation Instructions
 > To install the Starter kit:
 > 
-> ![giturl_installation.PNG](Documentation%7E/Images/giturl_installation.PNG)
+> ![giturl_installation.png](Documentation~/Images/giturl_installation.png)
 > 1. Open the Package Window
 > 2. Select the **+** button
 > 3. Click Add from GitURL
@@ -16,6 +16,7 @@ projects & Game jams.
 ### Supports Unity 2022
 
 ## To Do
+- [x] Online document generation
 - [ ] Add Cinematics Documentation
 - [ ] Expand [TransformAnimator.cs](Runtime/Scripts/Utilities/Animations/TransformAnimator.cs) to function in 3D
 - [ ] Add missing Gizmos into [WaitForUIMoveAnimations.cs](Runtime/Scripts/Utilities/WaitForAnimations/WaitForUIMoveAnimations.cs)
@@ -29,6 +30,7 @@ projects & Game jams.
 - [x] ~~Expand [PhysicsLauncher.cs](Runtime/Scripts/Utilities/Physics/PhysicsLauncher.cs) to function in 3D~~ - As of `v0.0.3`
 - [x] ~~Implement Reorder List extension into [CollectionExtensions.cs](Runtime/Scripts/Utilities/extensions/CollectionExtensions.cs)~~ - As of `v0.0.3`
 - [x] ~~Add Recycling Utility~~ as of `v0.0.2`
+
 
 
 ## Samples
