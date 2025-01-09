@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased] - yyyy-mm-dd
 
 ### Added
+- Added WebsiteDocs~ directory to generate website documentation from Documentation~ folder
 - 
 
 ### Changed
