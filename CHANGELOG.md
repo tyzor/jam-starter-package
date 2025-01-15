@@ -8,8 +8,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased] - yyyy-mm-dd
 
 ### Added
-- Added WebsiteDocs~ directory to generate website documentation from Documentation~ folder
 - 
+
+### Changed
+- 
+
+### Fixed
+-
+
+## [0.0.4] - yyyy-mm-dd
+
+### Added
+- Added `/WebsiteDocs~` directory to generate website documentation from `/Documentation~` folder
+- Added `TransformTweenExtensions.cs` to be a collection of `Transform` Extensions
+  - Adds functionalities to move, rotate & scale a `transform` 
+  - Includes `CURVE.cs` which allows us to change how a tween moves from 0 -> 1
+  - Added `TweenController.cs` as location where Tweens will be updated
 
 ### Changed
 - 
