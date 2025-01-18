@@ -22,13 +22,17 @@ Provided are some options for how your target transform should Lerp from A to B.
 use `LINEAR` but below are the current options.
 ### Linear
 This is a basic `Mathf.Lerp()`
+
 ![linear-curve.gif](../Images/linear-curve.gif)
 ### Ease In
 This uses the [`LerpFunctions.Coserp()`](../../Runtime/Scripts/Utilities/LerpFunctions.cs)
+
 ![ease-in-curve.gif](../Images/ease-in-curve.gif)
 ### Ease Out
 This uses the [`LerpFunctions.Sinerp()`](../../Runtime/Scripts/Utilities/LerpFunctions.cs)
+
 ![ease-out-curve.gif](../Images/ease-out-curve.gif)
 ### Ease In Out
 This uses the [`LerpFunctions.Hermite()`](../../Runtime/Scripts/Utilities/LerpFunctions.cs)
+
 ![ease-in-out-curve.gif](../Images/ease-in-out-curve.gif)
