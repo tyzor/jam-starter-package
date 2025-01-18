@@ -26,6 +26,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - Added `TweenController.cs` as location where Tweens will be updated
 
 ### Changed
+- Replaced calls in `LerpFunctions.cs` to `Mathf.Lerp()` with local `LERP()` to be more performant
+- Replaced calls in `LerpFunctions.cs` to `Mathf.Clamp()` or `Mathf.Clamp01()` with more performant calls to `Math.Clamp()`
 - 
 
 ### Fixed
