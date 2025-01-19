@@ -24,10 +24,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - Adds functionalities to move, rotate & scale a `transform` 
   - Includes `CURVE.cs` which allows us to change how a tween moves from 0 -> 1
   - Added `TweenController.cs` as location where Tweens will be updated
+- Added docs for the [Materials Sample](Documentation~/Samples/samples-materials.md)
 
 ### Changed
 - Replaced calls in `LerpFunctions.cs` to `Mathf.Lerp()` with local `LERP()` to be more performant
 - Replaced calls in `LerpFunctions.cs` to `Mathf.Clamp()` or `Mathf.Clamp01()` with more performant calls to `Math.Clamp()`
+- Moved `Sprite Color Change Example` sample into the `Materials` sample
 - 
 
 ### Fixed

@@ -128,26 +128,6 @@ namespace Utilities.Tweening
         {
             Active = true;
         }
-
-        /*
-        internal TweenData(bool worldSpace, TRANSFORM transformation, Transform targetTransform, float time, CURVE curve, Action onTweenComplete/*, Vector3 targetPosition, Quaternion targetRotation, Vector3 targetScale#1#)
-        {
-            //Is the requested tween in Local or World space?
-            _localTransformation = !worldSpace;
-            _transformation = transformation;
-            
-            _targetTransform = targetTransform;
-            _time =_totalTime = time;
-            _curve = curve;
-
-            _startPosition = _localTransformation ? _targetTransform.localPosition : targetTransform.position;
-            _startRotation = _localTransformation ? _targetTransform.localRotation : targetTransform.rotation;
-            _startScale = targetTransform.localScale;
-
-            OnTweenComplete = onTweenComplete;
-            Active = true;
-            cachedHash = HashCode.Combine(targetTransform, (int)transformation);
-        }*/
         
         internal TweenData SetData(bool worldSpace, TRANSFORM transformation, Transform targetTransform, float time, CURVE curve, Action onTweenComplete)
         {
@@ -188,12 +168,11 @@ namespace Utilities.Tweening
         internal void SetTargetPosition(Vector3 targetPosition) => _targetPosition = targetPosition;
         internal void SetTargetRotation(Quaternion targetRotation) => _targetRotation = targetRotation;
         internal void SetTargetScale(Vector3 targetScale) => _targetScale = targetScale;
-        
 
         internal bool Update(float deltaTime)
         {
             //We want to countdown the time to the target
-            _time = Mathf.Clamp01(_time - deltaTime);
+            _time = Math.Clamp(_time - deltaTime, 0f, 1f);
 
             //Because we're counting down, we'll need to invert then normalize the value to get the curve.T
             var dt = GetCurveT(_curve, 1f - (_time / _totalTime));

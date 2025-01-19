@@ -12,7 +12,7 @@ projects & Game jams.
 > 4. Paste `https://github.com/abr-designs/jam-starter-package.git` into the text box
 
 
-### `v0.0.3` - Jan 09, 2025
+### `v0.0.4` - Jan 09, 2025
 ### Supports Unity 2022
 
 ## To Do
@@ -36,7 +36,7 @@ projects & Game jams.
 ## Samples
 > To add samples, navigate to the **_Package Manager window → Jam Starter Kit → Samples_**
 > 
-> ![samples](Documentation%7E/Images/samples_tutorial.PNG)
+> ![samples](Documentation~/Images/samples_tutorial.png)
 
 - ### [VFX Manager](Documentation~/Samples/vfx-manager.md)
 - ### [SFX Manager](Documentation~/Samples/sfx-manager.md)
@@ -45,6 +45,7 @@ projects & Game jams.
 - ### [Game Input](Documentation~/Samples/game-input.md)
 - ### [Cinematics - WIP](Documentation~/Samples/cinematics.md)
 - ### [MainMenuUI.cs](Samples~/MainMenu/MainMenuUI.cs)
+- ###
 
 ## Features
 - ### [Level Loading](Documentation~/Levels.md)
