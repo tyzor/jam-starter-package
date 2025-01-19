@@ -12,7 +12,7 @@ projects & Game jams.
 > 4. Paste `https://github.com/abr-designs/jam-starter-package.git` into the text box
 
 
-### `v0.0.3` - Jan 09, 2025
+### `v0.0.4` - Jan 19, 2025
 ### Supports Unity 2022
 
 ## To Do
@@ -21,11 +21,11 @@ projects & Game jams.
 - [ ] Expand [TransformAnimator.cs](Runtime/Scripts/Utilities/Animations/TransformAnimator.cs) to function in 3D
 - [ ] Add missing Gizmos into [WaitForUIMoveAnimations.cs](Runtime/Scripts/Utilities/WaitForAnimations/WaitForUIMoveAnimations.cs)
 - [ ] Remove call requirement for [PhysicsLauncher.cs](Runtime/Scripts/Utilities/Physics/PhysicsLauncher.cs)
-- [ ] Add Settings menu sample into [MainMenuUI.cs](Samples~/MainMenu/MainMenuUI.cs)
 - [ ] Add Character Controller Example
 - [ ] Add Text Animators
 - [ ] Add Trajectory Line Renderer
 - [ ] Add procedural shapes using shaders
+- [x] ~~Add Settings menu sample into [MainMenuUI.cs](Samples~/MainMenu/MainMenuUI.cs)~~ - As of `v0.0.4`
 - [x] ~~Expand [CollisionChecks.cs](Runtime/Scripts/Utilities/Physics/CollisionChecks.cs) library~~ - As of `v0.0.3`
 - [x] ~~Expand [PhysicsLauncher.cs](Runtime/Scripts/Utilities/Physics/PhysicsLauncher.cs) to function in 3D~~ - As of `v0.0.3`
 - [x] ~~Implement Reorder List extension into [CollectionExtensions.cs](Runtime/Scripts/Utilities/extensions/CollectionExtensions.cs)~~ - As of `v0.0.3`
@@ -36,7 +36,7 @@ projects & Game jams.
 ## Samples
 > To add samples, navigate to the **_Package Manager window → Jam Starter Kit → Samples_**
 > 
-> ![samples](Documentation%7E/Images/samples_tutorial.PNG)
+> ![samples](Documentation~/Images/samples_tutorial.PNG)
 
 - ### [VFX Manager](Documentation~/Samples/vfx-manager.md)
 - ### [SFX Manager](Documentation~/Samples/sfx-manager.md)
@@ -45,6 +45,7 @@ projects & Game jams.
 - ### [Game Input](Documentation~/Samples/game-input.md)
 - ### [Cinematics - WIP](Documentation~/Samples/cinematics.md)
 - ### [MainMenuUI.cs](Samples~/MainMenu/MainMenuUI.cs)
+- ### [Materials](Documentation~/Samples/samples-materials.md)
 
 ## Features
 - ### [Level Loading](Documentation~/Levels.md)
@@ -54,6 +55,7 @@ projects & Game jams.
   - #### [Wait-For Animations](Documentation~/Utilities/utilities-wait-animation.md)
   - #### [Physics](Documentation~/Utilities/utilities-physics.md)
   - #### [Extensions](Documentation~/Utilities/utilities-extensions.md)
+  - #### [Transform Tweens](Documentation~/Utilities/utilities-extensions-transform.md)
   - #### [Debugging - Draw.cs](Documentation~/Utilities/utilities-draw.md)
   - #### [Recycling](Documentation~/Utilities/utilities-recycling.md)
 

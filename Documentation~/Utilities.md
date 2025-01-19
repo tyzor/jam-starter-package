@@ -56,4 +56,4 @@ provided.
 
 You are able to access `MouseCaster.HitObject` to read what the mouse is currently hovering
 
-![mouse-caster.PNG](Images/mouse-caster.PNG)
+![mouse-caster.PNG](Images/mouse-caster.png)
