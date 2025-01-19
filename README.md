@@ -45,7 +45,7 @@ projects & Game jams.
 - ### [Game Input](Documentation~/Samples/game-input.md)
 - ### [Cinematics - WIP](Documentation~/Samples/cinematics.md)
 - ### [MainMenuUI.cs](Samples~/MainMenu/MainMenuUI.cs)
-- ###
+- ### [Materials](Documentation~/Samples/samples-materials.md)
 
 ## Features
 - ### [Level Loading](Documentation~/Levels.md)
