@@ -16,7 +16,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 -
 
-## [0.0.4] - yyyy-mm-dd
+## [0.0.5] - yyyy-mm-dd
+
+### Added
+- Added missing `Circle2Circle()` function in [`CollisionChecks.cs`](Runtime/Scripts/Utilities/Physics/CollisionChecks.cs)
+  - Includes overload for `Vector2` parameters
+
+### Changed
+- 
+
+### Fixed
+-
+
+## [0.0.4] - 2025-01-19
 
 ### Added
 - Added `/WebsiteDocs~` directory to generate website documentation from `/Documentation~` folder
