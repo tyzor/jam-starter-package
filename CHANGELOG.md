@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Added missing `Circle2Circle()` function in [`CollisionChecks.cs`](Runtime/Scripts/Utilities/Physics/CollisionChecks.cs)
   - Includes overload for `Vector2` parameters
+- Added ~WebGLTemplates for a custom HTML player for WebGL builds
 
 ### Changed
 - 
